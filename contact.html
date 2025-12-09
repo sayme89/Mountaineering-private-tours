@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — SummitBound</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">SummitBound</a>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="tours.html">Tours</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" class="cta">Book a Private Tour</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Contact & Booking</h1>
+    <p>Use the form below or email us at <a href="mailto:hello@example.com">hello@example.com</a></p>
+
+    <!-- Static form example: replace action with Formspree or Netlify Forms for production -->
+    <form id="contact-form" class="form" method="POST" action="https://formspree.io/f/your-form-id">
+      <label>
+        Your name
+        <input type="text" name="name" required />
+      </label>
+
+      <label>
+        Email
+        <input type="email" name="email" required />
+      </label>
+
+      <label>
+        Preferred dates and group size
+        <input type="text" name="dates" placeholder="e.g. 2026-02-10 to 2026-02-14, 3 people" />
+      </label>
+
+      <label>
+        Experience & objectives
+        <textarea name="message" rows="5" placeholder="Tell us your experience and objective..."></textarea>
+      </label>
+
+      <p class="muted">By submitting you agree to our <a href="privacy.html">privacy policy</a>.</p>
+      <button class="btn primary" type="submit">Send Request</button>
+    </form>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div><strong>SummitBound</strong></div>
+      <div class="footer-links"><a href="index.html">Home</a></div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
